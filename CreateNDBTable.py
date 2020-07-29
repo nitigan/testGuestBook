@@ -8,7 +8,7 @@ try:
                                 database="testdb4")
     cursor = connection.cursor()
 
-    create_table_query = '''CREATE TABLE TestData
+    create_table_query = '''CREATE TABLE NewTest
             (id      SERIAL PRIMARY KEY,
              name    VARCHAR(50) NOT NULL,
              comment VARCHAR(1000)NOT NULL);'''
