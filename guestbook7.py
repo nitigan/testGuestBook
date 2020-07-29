@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String, Date  
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://webadmin:IYDdro59112@node1418-nitigan.app.ruk-com.cloud:11020/testdb'
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://webadmin:IYDdro59112@10.100.2.23:5432/testdb'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
